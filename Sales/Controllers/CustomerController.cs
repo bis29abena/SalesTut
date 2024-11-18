@@ -45,6 +45,19 @@ namespace Sales.Controllers
             _customerRepository.AddCustomer(customer);
             return Ok(customer);
         }
+
+        [HttpDelete("delete/{id}")]
+        public ActionResult DeleteProduct([FromRoute] int id)
+        {
+            var product = _customerRepository.GetCustomer(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _customerRepository.DeleteCustomer(id);
+            return NoContent();
+        }
     }
 
   

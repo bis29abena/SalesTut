@@ -9,7 +9,7 @@ namespace Sales.InMemoryRepository
 
 
         public CustomerInMemoryRepository()
-        {
+        { 
             customers = new List<Customer>
             {
                 new Customer{CustomerID = 1, Firstname = "Bismark", Lastname = "Osei", Email = "b@gmail.com", Phonenumber="0244161238"},
@@ -44,8 +44,14 @@ namespace Sales.InMemoryRepository
         {
             Customer updateCustomer = GetCustomer(customer.CustomerID);
 
+            if (updateCustomer == null)
+            {
+                throw new Exception("Customer not found.");
+
+            }
+
             updateCustomer.Firstname = customer.Firstname;
-            updateCustomer.Lastname = customer.Lastname;
+            updateCustomer.Lastname = customer.Lastname; 
             updateCustomer.Email = customer.Email;
             updateCustomer.Phonenumber = customer.Phonenumber;
         }

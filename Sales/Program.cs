@@ -12,6 +12,9 @@ builder.Services.AddSwaggerGen();
 
 // injecting dependencies
 builder.Services.AddSingleton<ICustomerRepository, CustomerInMemoryRepository>();
+builder.Services.AddSingleton<IProductRepository, ProductInMemoryRepository>();
+builder.Services.AddSingleton<ICategoryRepository, CategoryInMemoryRepository>();
+builder.Services.AddSingleton<IOrderRepository, OrderInMemoryRepository>();
 
 var app = builder.Build();
 
