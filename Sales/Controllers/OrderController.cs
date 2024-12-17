@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Sales.InMemoryRepository.Interface;
+using Sales.Repository.Interface;
 using Sales.Models;
+using Sales.Businesslogic.Interface;
 
 namespace Sales.Controllers
 {
@@ -9,10 +10,12 @@ namespace Sales.Controllers
         public class OrderController : Controller
         {
             private readonly IOrderRepository _orderRepository;
+            private readonly IOrderbusinesslogic _orderbusinesslogic;
 
-            public OrderController(IOrderRepository orderRepository)
+            public OrderController(IOrderRepository orderRepository, IOrderbusinesslogic orderbusinesslogic)
             {
                _orderRepository = orderRepository;
+               _orderbusinesslogic = orderbusinesslogic;
             }
 
             [HttpGet("getAll")]
@@ -42,8 +45,9 @@ namespace Sales.Controllers
             [HttpPost("add")]
             public ActionResult AddOrder([FromBody] Order order)
             {
-                _orderRepository.AddOrder(order);
-                return Ok(order);
+               var addedOrder = _orderbusinesslogic.AddOrders(order);
+
+                return Ok(addedOrder);
             }
 
             [HttpDelete("delete/{id}")]

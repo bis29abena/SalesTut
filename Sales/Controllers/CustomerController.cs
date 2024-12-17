@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Sales.InMemoryRepository.Interface;
+using Sales.Repository.Interface;
 using Sales.Models;
 
 namespace Sales.Controllers
@@ -45,7 +45,7 @@ namespace Sales.Controllers
             _customerRepository.AddCustomer(customer);
             return Ok(customer);
         }
-
+         
         [HttpDelete("delete/{id}")]
         public ActionResult DeleteProduct([FromRoute] int id)
         {

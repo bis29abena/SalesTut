@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Sales.InMemoryRepository.Interface;
+using Sales.Repository.Interface;
 using Sales.Models;
 
 namespace Sales.Controllers
