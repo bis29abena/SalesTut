@@ -1,0 +1,5 @@
+.vs
+.fake
+.github
+
+./Sales/bin/Debug/net8.0/*
