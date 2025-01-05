@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\categorybusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\categorybusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\interface\\icategorybusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\interface\\icategorybusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\customerbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\customerbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\productbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\productbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\interface\\icustomerbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\interface\\icustomerbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\interface\\iorderbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\interface\\iorderbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\orderbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\orderbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\businesslogic\\interface\\iproductbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\businesslogic\\interface\\iproductbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\sales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\sales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|c:\\users\\dell\\desktop\\salesapp\\salestut\\sales\\sales.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{03FD8AB3-3486-4E96-853D-C1ACB47329BB}|Sales\\Sales.csproj|solutionrelative:sales\\sales.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Sales\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Sales\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T21:43:07.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Sales\\Repository\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "Sales\\Repository\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T21:22:53.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\ICategoryBusinessLogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\Interface\\ICategoryBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\ICategoryBusinessLogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\Interface\\ICategoryBusinessLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:31:19.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\CategoryBusinessLogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\CategoryBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\CategoryBusinessLogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\CategoryBusinessLogic.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:29:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Sales\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Sales\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAmwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:04:39.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Sales\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Sales\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:44:52.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Sales",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Sales.csproj",
+              "RelativeDocumentMoniker": "Sales\\Sales.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Sales.csproj",
+              "RelativeToolTip": "Sales\\Sales.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-27T15:25:03.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sales.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Sales.csproj",
+              "RelativeDocumentMoniker": "Sales\\Sales.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Sales.csproj",
+              "RelativeToolTip": "Sales\\Sales.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-27T15:24:20.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Sales\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Sales\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwEkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:36:16.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\IProductBusinessLogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\Interface\\IProductBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\IProductBusinessLogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\Interface\\IProductBusinessLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:01:26.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\ProductBusinessLogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\ProductBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\ProductBusinessLogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\ProductBusinessLogic.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:00:41.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Sales\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Models\\Product.cs",
+              "RelativeToolTip": "Sales\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T16:38:40.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICustomerBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\ICustomerBusinessLogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\Interface\\ICustomerBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\ICustomerBusinessLogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\Interface\\ICustomerBusinessLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T13:16:58.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\CustomerBusinessLogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\CustomerBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\CustomerBusinessLogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\CustomerBusinessLogic.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T13:14:55.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Sales\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Sales\\Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:04:48.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Sales\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Sales\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:51:13.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Program.cs",
+              "RelativeDocumentMoniker": "Sales\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Program.cs",
+              "RelativeToolTip": "Sales\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:28:41.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderBusinesslogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\OrderBusinesslogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\OrderBusinesslogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\OrderBusinesslogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\OrderBusinesslogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:44:22.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderbusinesslogic.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\IOrderbusinesslogic.cs",
+              "RelativeDocumentMoniker": "Sales\\Businesslogic\\Interface\\IOrderbusinesslogic.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Businesslogic\\Interface\\IOrderbusinesslogic.cs",
+              "RelativeToolTip": "Sales\\Businesslogic\\Interface\\IOrderbusinesslogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:24:30.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Sales\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Models\\Order.cs",
+              "RelativeToolTip": "Sales\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:14:21.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Sales\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "Sales\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:46:23.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\appsettings.json",
+              "RelativeDocumentMoniker": "Sales\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\appsettings.json",
+              "RelativeToolTip": "Sales\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T10:07:36.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Sales\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SalesApp\\SalesTut\\Sales\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Sales\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwEIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:42:51.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
