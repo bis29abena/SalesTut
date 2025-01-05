@@ -53,13 +53,18 @@ namespace Sales.Repository
 
             public void UpdateProduct(Product product)
             {
+
+            if (product.PurchaseQuantity > product.StockQuantity)
+                {
+                throw new InvalidOperationException("Purchase quantity cannot be greater than stock quantity.");
+                }
                 Product existingProduct = _appDbContext.Product.Find(product.ProductID);
-            if (existingProduct != null)
+                if (existingProduct != null)
                 {
                     existingProduct.ProductName = product.ProductName;
-                    existingProduct.Specification = product.Specification;
                     existingProduct.Price = product.Price;
                     existingProduct.StockQuantity = product.StockQuantity;
+                    existingProduct.PurchaseQuantity = product.PurchaseQuantity;    
                 }
             }
 

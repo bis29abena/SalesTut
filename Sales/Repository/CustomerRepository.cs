@@ -1,8 +1,8 @@
 ﻿using Sales.Repository.Interface;
 using Sales.Models;
 using Sales.Data;
-
-namespace Sales.Repository.Interface
+ 
+namespace Sales.Repository
 {
         public class CustomerRepository : ICustomerRepository
         {

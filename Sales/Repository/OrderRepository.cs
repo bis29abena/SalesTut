@@ -14,7 +14,7 @@ namespace Sales.Repository
         }
 
         public void AddOrder(Order order)
-        {
+        { 
             _appDbContext.Order.Add(order);
             _appDbContext.SaveChanges();
         }

@@ -26,9 +26,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();    
+
 
 builder.Services.AddTransient<IOrderbusinesslogic, OrderBusinesslogic>();   
+builder.Services.AddTransient<ICustomerBusinessLogic, CustomerBusinessLogic>();   
+builder.Services.AddTransient<IProductBusinessLogic, ProductBusinessLogic>();
+builder.Services.AddTransient<ICategoryBusinessLogic, CategoryBusinessLogic>();
+
 
 var app = builder.Build();
 

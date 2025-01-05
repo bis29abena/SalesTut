@@ -2,6 +2,7 @@
 using Sales.Repository.Interface;
 using Sales.Models;
 using Sales.Businesslogic.Interface;
+using Sales.Businesslogic;
 
 namespace Sales.Controllers
 {
@@ -45,9 +46,24 @@ namespace Sales.Controllers
             [HttpPost("add")]
             public ActionResult AddOrder([FromBody] Order order)
             {
-               var addedOrder = _orderbusinesslogic.AddOrders(order);
+                if (order == null)
+                {
+                return BadRequest(new { Message = "Order object cannot be null." });
+                }
 
-                return Ok(addedOrder);
+                try
+                {
+                var addedOrder = _orderbusinesslogic.AddOrders(order);
+                return Ok(new { Message = "Order added successfully.", Order = addedOrder });
+                }
+                catch (InvalidOperationException ex)
+                {
+                return BadRequest(new { Message = ex.Message });
+                }
+                catch (Exception ex)
+                {
+                return StatusCode(500, new { Message = "An error occurred while adding the order.", Details = ex.Message });
+                }
             }
 
             [HttpDelete("delete/{id}")]

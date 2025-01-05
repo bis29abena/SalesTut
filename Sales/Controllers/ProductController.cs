@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Sales.Repository.Interface;
 using Sales.Models;
+using Sales.Businesslogic.Interface;
+
 
 namespace Sales.Controllers
 {
@@ -10,10 +12,14 @@ namespace Sales.Controllers
     {
    
             private readonly IProductRepository _productRepository;
+            private readonly IProductBusinessLogic _productBusinessLogic;
 
-            public ProductController(IProductRepository productRepository)
+            public ProductController(IProductRepository productRepository, IProductBusinessLogic productBusinesLogic)
             {
                 _productRepository = productRepository;
+                _productBusinessLogic = productBusinesLogic;
+                
+
             }
 
             [HttpGet("getAll")]
@@ -47,18 +53,30 @@ namespace Sales.Controllers
                 return Ok(product); 
             }
 
-            [HttpPost("add")]
-            public ActionResult AddProduct([FromBody] Product product)
+        [HttpPost("add")]
+        public ActionResult AddProduct([FromBody] Product product)
+        {
+            if (product == null)
             {
-                if (product == null)
-                {
-                    return BadRequest();
-                }
-
-                _productRepository.AddProduct(product);
-         
-                return CreatedAtAction(nameof(GetProduct), new { id = product.ProductID }, product);
+                return BadRequest(new { Message = "Product object cannot be null." });
             }
+
+            try
+            {
+                var addedProduct = _productBusinessLogic.AddProducts(product);
+                return Ok(new { Message = "Product added successfully.", Product = addedProduct });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            { 
+            return StatusCode(500, new { Message = "An error occurred while adding the product.", Details = ex.Message }); 
+
+            }
+        }
+
 
             [HttpDelete("delete/{id}")]
             public ActionResult DeleteProduct([FromRoute] int id)

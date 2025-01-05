@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Sales.Repository.Interface;
 using Sales.Models;
+using Sales.Businesslogic.Interface;
+using Sales.Businesslogic;
 
 namespace Sales.Controllers
 {
@@ -9,10 +11,12 @@ namespace Sales.Controllers
     public class CustomerController : Controller
     {
         private readonly ICustomerRepository _customerRepository;
+        private readonly ICustomerBusinessLogic _customerbusinesslogic;
 
-        public CustomerController(ICustomerRepository customerRepository)
+        public CustomerController(ICustomerRepository customerRepository, ICustomerBusinessLogic customerbusinesslogic)
         {
             _customerRepository = customerRepository;
+            _customerbusinesslogic = customerbusinesslogic;
         }
 
         [HttpGet("getAll")]
@@ -32,31 +36,56 @@ namespace Sales.Controllers
         }
 
         [HttpPatch("update")]
-        public ActionResult UpdateCustomer(Customer customer) 
+        public ActionResult UpdateCustomer([FromBody]Customer customer) 
         {
-            _customerRepository.UpdateCustomer(customer);
+            if (customer == null)
+            {
+                return BadRequest(new { message = "Customer object is null." });
+            }
 
-            return Ok(customer);
+            try
+            {
+                var updatedCustomer = _customerbusinesslogic.UpdateCustomers(customer);
+                return Ok(new { Message = "Customer updated successfully.", Customer = updatedCustomer });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred.", Details = ex.Message });
+            }
         }
 
         [HttpPost("add")]
         public ActionResult AddCustomer([FromBody] Customer customer)
         {
-            _customerRepository.AddCustomer(customer);
-            return Ok(customer);
+           var addedcustomer = _customerbusinesslogic.AddCustomers(customer);
+            return Ok(addedcustomer);
         }
          
-        [HttpDelete("delete/{id}")]
-        public ActionResult DeleteProduct([FromRoute] int id)
+        [HttpDelete("{customerId}")]
+        public ActionResult DeleteCustomer([FromRoute] int customerId)
         {
-            var product = _customerRepository.GetCustomer(id);
-            if (product == null)
+            try
             {
-                return NotFound();
+                _customerbusinesslogic.DeleteCustomers(customerId);
+
+
+                return Ok(new { Message = "Customer deleted successfully." });
+            }
+            catch (InvalidOperationException ex)
+            {
+
+                return NotFound(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, new { Message = "An error occurred while deleting the customer.", Details = ex.Message });
             }
 
-            _customerRepository.DeleteCustomer(id);
-            return NoContent();
         }
     }
 

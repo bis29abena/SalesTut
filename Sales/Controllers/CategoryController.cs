@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Sales.Repository.Interface;
 using Sales.Models;
+using Sales.Businesslogic.Interface;
 
 namespace Sales.Controllers
 {
@@ -9,10 +10,12 @@ namespace Sales.Controllers
     public class CategoryController : Controller
     {
         private readonly ICategoryRepository _categoryRepository;
+        private readonly ICategoryBusinessLogic _categoryBusinessLogic;
 
-        public CategoryController(ICategoryRepository categoryRepository)
+        public CategoryController(ICategoryRepository categoryRepository, ICategoryBusinessLogic categoryBusinessLogic)
         {
             _categoryRepository = categoryRepository;
+            _categoryBusinessLogic = categoryBusinessLogic;
         }
 
         [HttpGet("getAll")]
@@ -38,13 +41,25 @@ namespace Sales.Controllers
         [HttpPost("add")]
         public ActionResult AddCategory(Category category)
         {
-            if (category == null) 
-            { 
-             return BadRequest();
+            if (category == null)
+            {
+                return BadRequest(new { Message = "Category object cannot be null." });
             }
-            _categoryRepository.AddCategory(category);
 
-            return Ok(category);
+            try
+            {
+                var addedCategory = _categoryBusinessLogic.AddCategories(category);
+
+                return Ok(new { Message = "Category added successfully.", Category = addedCategory });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred while adding the category.", Details = ex.Message });
+            }
         }
 
         [HttpPatch("update")]
@@ -52,11 +67,23 @@ namespace Sales.Controllers
         {
             if (category == null)
             {
-                return BadRequest();
+                return BadRequest(new { Message = "Category object cannot be null." });
             }
-            _categoryRepository.UpdateCategory(category);
 
-            return Ok(category);
+            try
+            {
+                _categoryBusinessLogic.UpdateCategories(category);
+
+                return Ok(new { Message = "Category updated successfully.", Category = category });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred while updating the category.", Details = ex.Message });
+            }
         }
 
         [HttpDelete("delete/{id}")]
